@@ -138,7 +138,8 @@
           "_styles": {
             "H1": {
               "color": "#ffffff",
-              "text-align": "left"
+              "text-align": "left",
+              "font-size": "36px"
             },
             "P": {
               "text-align": "left",
