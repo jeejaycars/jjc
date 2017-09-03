@@ -11,7 +11,7 @@
       ]
     },
     "versionFirst": "4.2.3",
-    "uniqCompNum": 21,
+    "uniqCompNum": 24,
     "versionPublish": "4.2.3"
   },
   "pages": {
@@ -80,43 +80,74 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "right",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/2015-rolls-royce-phantom-limelight-2000x1250.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222222",
-            "overlayOpacity": "0.4"
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/2015-rolls-royce-phantom-limelight-2000x1250.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "JEE JAY CARS",
+                "contentAlign": "right",
+                "text": "<b>Used Cars @ Real Value</b>",
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.6"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/rolls-royce-wraith-white-rear-view-104125-1920x1080-1920x1080.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "JEE JAY CARS",
+                "contentAlign": "left",
+                "text": "<b>Used Cars @ Real Value</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "overlay": true,
+                "overlayOpacity": "0.6"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/bmw-cars-beautiful-hd-wallpapers-1-640x426.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "JEE JAY CARS",
+                "contentAlign": "left",
+                "text": "<b>Used Cars @ Real Value</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "overlayColor": "#28324e"
+              }
+            ]
           },
-          "title": "JeeJayCars™",
-          "text": "<b>Real Value @ Used Cars</b><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+          "articleLayout": false,
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-1",
+          "_name": "slider",
+          "_anchor": "slider-n",
           "_styles": {
             "H1": {
               "color": "#ffffff",
+              "text-align": "left"
+            },
+            "P": {
               "text-align": "left",
-              "font-size": "36px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "color": "#2c82c9"
             },
             "B": {
-              "color": "#ffffff",
-              "font-size": "25px"
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "30px"
             }
           }
         },

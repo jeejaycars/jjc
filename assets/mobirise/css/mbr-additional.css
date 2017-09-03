@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
 
 
 #ext_menu-0 .mbr-brand__name {
@@ -15,15 +14,17 @@
 #ext_menu-0 .mbr-navbar__hamburger {
   color: #2c82c9;
 }
-#header1-1 H1 {
+#slider-n H1 {
   color: #ffffff;
   text-align: left;
-  font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
 }
-#header1-1 B {
-  color: #ffffff;
-  font-size: 25px;
+#slider-n P {
+  text-align: left;
+  color: #2c82c9;
+}
+#slider-n B {
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
 }
 #contacts1-3 P {
   color: #2c82c9;
