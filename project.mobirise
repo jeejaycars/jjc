@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JeeJayCars",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -384,7 +384,7 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "text-align": "center",
-              "color": "#000000",
+              "color": "#2c82c9",
               "font-family": "'Slabo 27px', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
               "font-size": "36px"
@@ -397,6 +397,9 @@
               "color": "#000000",
               "font-family": "'Slabo 27px', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+            },
+            ".mbr-article P": {
+              "color": "#2c82c9"
             }
           },
           "_params": {
@@ -408,7 +411,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bg3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-752x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -464,6 +467,21 @@
               "authorName": "",
               "authorBio": "",
               "text": "<b><i>Test Drive:\r</i></b><div>Before you get down to a decision for actually making a purchase take a look at the car and drive it. Try to accelerate and brake hard to check everything is in good shape. The engine should revv with ease, gear shifting should be smooth, clutch shoudn't be over-tight and in-general keep your ears open for any doubtful squeaky or rattling sounds.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Inspection:\n</i></b><div>Agreeing to the fact that you might not be having all the knowledge of a trained mechanic or a professional, but some simple-general checks can give a fair idea about the concerned car's health. The first and the most easiest way is to check for an engine’s health is the oil dipstick. If the oil colour on the dipstick is black then chances are it’s not been serviced or maintained well. While, a healthy car’s oil will be golden brown in colour. Next up, check for creamy sludge beneath the engine oil's cap, if its present, then there might be a problem with the head gasket. After that switch onn the engine and check if the radiator has a leak or there isn't any other of oil leaking from the engine. Also check for patchy paint work and bent or dented panels as they may have been hammered back into shape and re-painted after an accident. If all seems fine till now, removing rubber lining from all door sills to check for dents and sign of re-worked body.\n</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Paperwork to be checked:\r</i></b><div>This is a very crucial part in a car deal. Please ensure that all paperwork of the car should be complete. Insurance, RC (Registration certificate), service history, PUC (Pollution under control certificate), warranty certificates and if required NOC (No Objection Certificate) too, give all of them a close look.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Things to doubt up on:\n</i></b><div>- Irregular Service History\n</div><div>- Body Rusting\n</div><div>- Brand new accessories (hints at something &nbsp; &nbsp;fishy in the deal)\n</div><div>- Jerky Drive\n</div><div>- Strange sounds from engine\n</div><div><br></div>"
             }
           ],
           "_tags": [
@@ -475,7 +493,7 @@
             {
               "authorName": "",
               "authorBio": "",
-              "text": "<b><i>Where to buy?\r</i></b><div>Web has overshadowed every other conventional way to buy or sell a car, so checking out some good deals online can surely save some of your extra bucks, but the only catch here is that you should have the eye to be able to spot a difference between a good and a bad deal. The other option is buying through a broker or a local dealer, in this case prefer, a reputed or atleast known dealer to avoid any future headache. However, buying a car directly from the owner is still the best and the most hassle-free way.\r</div><div><br></div>"
+              "text": "<b><i>Where to buy?\n</i></b><div>Web has overshadowed every other conventional way to buy or sell a car, so checking out some good deals online can surely save some of your extra bucks, but the only catch here is that you should have the eye to be able to spot a difference between a good and a bad deal. The other option is buying through a broker or a local dealer, in this case prefer, a reputed or atleast known dealer to avoid any future headache. However, buying a car directly from the owner is still the best and the most hassle-free way.\n</div><div><br></div>"
             },
             {
               "authorName": "",
@@ -502,7 +520,18 @@
               "authorBio": "",
               "text": "<b><i>Things to doubt up on:\n</i></b><div>- Irregular Service History\n</div><div>- Body Rusting\n</div><div>- Brand new accessories (hints at something &nbsp; &nbsp;fishy in the deal)\n</div><div>- Jerky Drive\n</div><div>- Strange sounds from engine\n</div><div><br></div>"
             }
-          ]
+          ],
+          "_styles": {
+            ".mbr-reviews__text DIV": {
+              "color": "#2c82c9"
+            },
+            ".mbr-reviews__text I": {
+              "color": "#000000"
+            },
+            ".mbr-section__header": {
+              "color": "#2c82c9"
+            }
+          }
         },
         {
           "_params": {

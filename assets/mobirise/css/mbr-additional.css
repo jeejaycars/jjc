@@ -52,7 +52,7 @@
 }
 #content5-c .mbr-header .mbr-header__text {
   text-align: center;
-  color: #000000;
+  color: #2c82c9;
   font-family: 'Slabo 27px', serif;
   font-size: 36px;
 }
@@ -63,6 +63,18 @@
 #content5-c .mbr-article {
   color: #000000;
   font-family: 'Slabo 27px', serif;
+}
+#content5-c .mbr-article P {
+  color: #2c82c9;
+}
+#testimonials1-d .mbr-reviews__text DIV {
+  color: #2c82c9;
+}
+#testimonials1-d .mbr-reviews__text I {
+  color: #000000;
+}
+#testimonials1-d .mbr-section__header {
+  color: #2c82c9;
 }
 #contacts1-9 P {
   color: #2c82c9;
