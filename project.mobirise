@@ -101,8 +101,8 @@
                 "overlayOpacity": "0.6"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/rolls-royce-wraith-white-rear-view-104125-1920x1080-1920x1080.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/audi-hd-wallpaper-1600x900.jpg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -115,7 +115,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/bmw-cars-beautiful-hd-wallpapers-1-640x426.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
