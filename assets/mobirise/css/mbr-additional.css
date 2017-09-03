@@ -62,3 +62,28 @@
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 16px;
 }
+
+
+#ext_menu-e .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-e.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-e .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-e .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#form1-h .mbr-header__text {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+#form2-i .mbr-header__text {
+  font-size: 20px;
+}
+#footer1-g B {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 16px;
+}
