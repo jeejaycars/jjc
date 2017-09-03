@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JeeJayCars",
-    "currentPage": "Contact Us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -57,7 +57,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -113,7 +113,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
             "B": {
-              "color": "#b8312f",
+              "color": "#2c82c9",
               "font-size": "25px"
             }
           }
@@ -236,7 +236,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-265x265.png",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
@@ -361,7 +361,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -548,7 +548,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-265x265.png",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
@@ -647,7 +647,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -792,7 +792,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-265x265.png",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
