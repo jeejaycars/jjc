@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JeeJayCars",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -9,7 +9,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.2.3",
-    "uniqCompNum": 6,
+    "uniqCompNum": 14,
     "versionPublish": "4.2.3"
   },
   "pages": {
@@ -53,7 +53,7 @@
               "color": "#ffffff"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -97,7 +97,7 @@
             "overlayOpacity": 0.5
           },
           "title": "JeeJayCars™",
-          "text": "<br><br>",
+          "text": "<b>Real Value For Used Cars</b><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"Tel:9025154626\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
           "_tags": [
             "Theme"
@@ -111,8 +111,115 @@
               "font-size": "36px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "B": {
+              "color": "#b8312f",
+              "font-size": "25px"
             }
           }
+        },
+        {
+          "_params": {
+            "fullWidth": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "noGutter": true,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#4c6972",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0026-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0026-1280x720-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0023-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0023-1280x720-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0024-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0024-1280x720-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0025-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0025-1280x720-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0031-800x599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0031-800x599-800x599.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0030-800x599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0030-800x599-800x599.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0032-800x599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0032-800x599-800x599.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0029-800x599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0029-800x599-800x599.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0045-1152x864.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0045-1152x864-800x600.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0035-1152x864.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0035-1152x864-800x600.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0036-1152x864.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0036-1152x864-800x600.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0040-1152x864.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0040-1152x864-800x600.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-7"
         },
         {
           "_params": {
@@ -145,7 +252,7 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>OLD ON 81 NEW NO 208,\n<br>VELACHERY , GANHI ROAD BUS STOP , CHENNAI-600042.\n<br>TAMILNADU (State),\n<br>INDIA<br>",
-          "text2": "<strong>CONTACTS</strong><br>\nEmail: Jeejaycars@gmail.com<br>Hotline: 9025154626",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: Jeejaycars@gmail.com<br>Hotline: 9841087179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962597179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962497179<br>Telephone: 04422551380",
           "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>About Us</li><li>Contact Us</li><li>Finance</li></ul>",
           "_tags": [
             "Theme"
@@ -187,12 +294,271 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Powered By: Web Soft Private Limited , Tiruchengode (09842573025)",
+          "text": "<b>Powered By: Web Soft Private Limited™ , Tiruchengode (09842573025)</b>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-5"
+          "_anchor": "footer1-5",
+          "_styles": {
+            "B": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "16px"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "About Us",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-128x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JeeJayCars</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-8"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#000000",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "36px"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#000000",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": true,
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.2
+          },
+          "title": "Jee Jay Cars",
+          "text": "<p><b>Welcome to Jee Jay Cars.We offer a complete range of quality tested certified second hand used cars from all brands in Chennai. We have our sales &amp; service outlet at Velachery, Chennai. We are a Multibrand Used Car Dealer providing sales &amp; service under one single umbrella. We have a qualified educated staff who are well trained in this Industry.</b></p><p><b>| Why Choose Us |</b></p><p><b><i>Quality process\n</i></b></p><p><b>Our Commitment is towards providing our customers with only the highest quality. We pay tremendous attention to detail to ensure that you go home with the top-of-the-line, used vehicle that you’ve always dreamed of.\n</b></p><p><b>\n</b></p><p><b><i>Some of the Great Services Our Customers\n</i></b></p><p><b>Transparency, trust and peace of mind to every customer. Expertise and professionalism. Wide choice of multi-brand cars. Convenience of hassle-free documentation. The assurance of WarrantyFirst and Certifirst. Best competitive prices in the industry. Finance on used cars. Insurance on used cars. Supply &amp; fitment of a wide range of car accessories.\n</b></p><p><b>\n</b></p><p><b><i>Selling Your Used Car \n</i></b></p><p><b>Buying and selling a used car comes with its own set of uncertainties, questions and misconceptions. Let JeeJayCars put your mind at ease. When you get the JeeJayCars advantage, you will enjoy a high quality and hassle-free buying and selling experience.</b></p><p><b><br></b></p><p><b><br></b></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "_name": "content5",
+          "_anchor": "content5-c"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": true,
+            "count": "6",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "THINGS TO CHECK WHEN BUYING A USED CAR",
+          "items": [
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Where to buy?\r</i></b><div>Web has overshadowed every other conventional way to buy or sell a car, so checking out some good deals online can surely save some of your extra bucks, but the only catch here is that you should have the eye to be able to spot a difference between a good and a bad deal. The other option is buying through a broker or a local dealer, in this case prefer, a reputed or atleast known dealer to avoid any future headache. However, buying a car directly from the owner is still the best and the most hassle-free way.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Take an experienced person along:\r</i></b><div>If you aren't a tech savvy and don't have an idea about cars, so its better to take an experienced person along, be it a family member or a friend. If want to play even safer, take a known mechanic with you, as nobody understands a car better than a professional.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Test Drive:\r</i></b><div>Before you get down to a decision for actually making a purchase take a look at the car and drive it. Try to accelerate and brake hard to check everything is in good shape. The engine should revv with ease, gear shifting should be smooth, clutch shoudn't be over-tight and in-general keep your ears open for any doubtful squeaky or rattling sounds.\r</div><div><br></div>"
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-d",
+          "testimonial": [
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Where to buy?\r</i></b><div>Web has overshadowed every other conventional way to buy or sell a car, so checking out some good deals online can surely save some of your extra bucks, but the only catch here is that you should have the eye to be able to spot a difference between a good and a bad deal. The other option is buying through a broker or a local dealer, in this case prefer, a reputed or atleast known dealer to avoid any future headache. However, buying a car directly from the owner is still the best and the most hassle-free way.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Take an experienced person along:\r</i></b><div>If you aren't a tech savvy and don't have an idea about cars, so its better to take an experienced person along, be it a family member or a friend. If want to play even safer, take a known mechanic with you, as nobody understands a car better than a professional.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Test Drive:\r</i></b><div>Before you get down to a decision for actually making a purchase take a look at the car and drive it. Try to accelerate and brake hard to check everything is in good shape. The engine should revv with ease, gear shifting should be smooth, clutch shoudn't be over-tight and in-general keep your ears open for any doubtful squeaky or rattling sounds.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Inspection:\n</i></b><div>Agreeing to the fact that you might not be having all the knowledge of a trained mechanic or a professional, but some simple-general checks can give a fair idea about the concerned car's health. The first and the most easiest way is to check for an engine’s health is the oil dipstick. If the oil colour on the dipstick is black then chances are it’s not been serviced or maintained well. While, a healthy car’s oil will be golden brown in colour. Next up, check for creamy sludge beneath the engine oil's cap, if its present, then there might be a problem with the head gasket. After that switch onn the engine and check if the radiator has a leak or there isn't any other of oil leaking from the engine. Also check for patchy paint work and bent or dented panels as they may have been hammered back into shape and re-painted after an accident. If all seems fine till now, removing rubber lining from all door sills to check for dents and sign of re-worked body.\n</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Paperwork to be checked:\r</i></b><div>This is a very crucial part in a car deal. Please ensure that all paperwork of the car should be complete. Insurance, RC (Registration certificate), service history, PUC (Pollution under control certificate), warranty certificates and if required NOC (No Objection Certificate) too, give all of them a close look.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Things to doubt up on:\n</i></b><div>- Irregular Service History\n</div><div>- Body Rusting\n</div><div>- Brand new accessories (hints at something &nbsp; &nbsp;fishy in the deal)\n</div><div>- Jerky Drive\n</div><div>- Strange sounds from engine\n</div><div><br></div>"
+            }
+          ]
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-128x128.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>OLD ON 81 NEW NO 208,\n<br>VELACHERY , GANHI ROAD BUS STOP , CHENNAI-600042.\n<br>TAMILNADU (State),\n<br>INDIA<br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: Jeejaycars@gmail.com<br>Hotline: 9841087179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962597179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962497179<br>Telephone: 04422551380",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>About Us</li><li>Contact Us</li><li>Finance</li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-9"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Powered By: Web Soft Private Limited™ , Tiruchengode (09842573025)</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "B": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "footer1-a"
         }
       ]
     }

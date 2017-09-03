@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
 
 #ext_menu-0 .mbr-brand__name {
   font-size: 16px;
@@ -17,4 +20,45 @@
   text-align: left;
   font-size: 36px;
   font-family: 'Montserrat', sans-serif;
+}
+#header1-1 B {
+  color: #b8312f;
+  font-size: 25px;
+}
+#footer1-5 B {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 16px;
+}
+
+
+
+#ext_menu-8 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-8.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-8 .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-8 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#content5-c .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #000000;
+  font-family: 'Slabo 27px', serif;
+  font-size: 36px;
+}
+#content5-c .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-c .mbr-article {
+  color: #000000;
+  font-family: 'Slabo 27px', serif;
+}
+#footer1-a B {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 16px;
 }
