@@ -84,7 +84,7 @@
             "showArrow": true,
             "contentAlign": "right",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/rolls-royce-wraith-white-rear-view-104125-1920x1080-1920x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/2015-rolls-royce-phantom-limelight-2000x1250.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -113,7 +113,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
             "B": {
-              "color": "#2c82c9",
+              "color": "#ffffff",
               "font-size": "25px"
             }
           }
