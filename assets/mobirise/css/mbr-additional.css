@@ -7,13 +7,13 @@
   font-size: 16px;
 }
 #ext_menu-0.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #ffffff;
 }
 #ext_menu-0 .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #ffffff;
 }
 #ext_menu-0 .mbr-navbar__hamburger {
-  color: #ffffff;
+  color: #2c82c9;
 }
 #header1-1 H1 {
   color: #ffffff;
@@ -24,6 +24,12 @@
 #header1-1 B {
   color: #b8312f;
   font-size: 25px;
+}
+#contacts1-3 P {
+  color: #2c82c9;
+}
+#social-buttons2-4 .mbr-header__text {
+  color: #27aae0;
 }
 #footer1-5 B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -36,13 +42,13 @@
   font-size: 16px;
 }
 #ext_menu-8.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #ffffff;
 }
 #ext_menu-8 .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #ffffff;
 }
 #ext_menu-8 .mbr-navbar__hamburger {
-  color: #ffffff;
+  color: #2c82c9;
 }
 #content5-c .mbr-header .mbr-header__text {
   text-align: center;
@@ -58,6 +64,9 @@
   color: #000000;
   font-family: 'Slabo 27px', serif;
 }
+#contacts1-9 P {
+  color: #2c82c9;
+}
 #footer1-a B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 16px;
@@ -68,13 +77,13 @@
   font-size: 16px;
 }
 #ext_menu-e.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #ffffff;
 }
 #ext_menu-e .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #ffffff;
 }
 #ext_menu-e .mbr-navbar__hamburger {
-  color: #ffffff;
+  color: #2c82c9;
 }
 #form1-h .mbr-header__text {
   font-family: 'Slabo 27px', serif;
@@ -82,6 +91,9 @@
 }
 #form2-i .mbr-header__text {
   font-size: 20px;
+}
+#contacts1-f P {
+  color: #2c82c9;
 }
 #footer1-g B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
