@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JeeJayCars",
-    "currentPage": "page1.html",
+    "currentPage": "Contact Us.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -680,7 +680,7 @@
             "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM(Our Team Will Contact You in 24 Hrs)",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
             "action": "jeejaycars@gmail.com",
             "alerts": {
@@ -717,7 +717,8 @@
             ".mbr-header__text": {
               "font-family": "'Slabo 27px', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "20px"
+              "font-size": "20px",
+              "color": "#2c82c9"
             }
           }
         },
@@ -736,7 +737,7 @@
             "overlayOpacity": 0.5
           },
           "title": "SUBSCRIBE TO OUR NEWSLETTER TO GET INFOMATION ABOUT NEW ARRIVALS",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">SUBSCRIBE</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">SUBSCRIBE</a>",
           "form": {
             "action": "jeejaycars@gmail.com",
             "alerts": {
@@ -756,7 +757,8 @@
           "_anchor": "form2-i",
           "_styles": {
             ".mbr-header__text": {
-              "font-size": "20px"
+              "font-size": "20px",
+              "color": "#2c82c9"
             }
           }
         },
