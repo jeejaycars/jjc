@@ -84,12 +84,12 @@
             "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "showBullets": true,
+            "showBullets": false,
             "bgColor": "#ffffff",
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/2015-rolls-royce-phantom-limelight-2000x1250.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -143,7 +143,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/5r8eyu-1920x1200.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
