@@ -6,7 +6,9 @@
       "name": "default",
       "title": "Mobirise",
       "styling": {},
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#222222"
+      ]
     },
     "versionFirst": "4.2.3",
     "uniqCompNum": 21,
@@ -92,9 +94,9 @@
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#222222",
+            "overlayOpacity": "0.4"
           },
           "title": "JeeJayCars™",
           "text": "<b>Real Value @ Used Cars</b><br><br>",
@@ -456,7 +458,7 @@
             {
               "authorName": "",
               "authorBio": "",
-              "text": "<b><i>Where to buy?\r</i></b><div>Web has overshadowed every other conventional way to buy or sell a car, so checking out some good deals online can surely save some of your extra bucks, but the only catch here is that you should have the eye to be able to spot a difference between a good and a bad deal. The other option is buying through a broker or a local dealer, in this case prefer, a reputed or atleast known dealer to avoid any future headache. However, buying a car directly from the owner is still the best and the most hassle-free way.\r</div><div><br></div>"
+              "text": "<b><i>Where to buy?\n</i></b><div>Web has overshadowed every other conventional way to buy or sell a car, so checking out some good deals online can surely save some of your extra bucks, but the only catch here is that you should have the eye to be able to spot a difference between a good and a bad deal. The other option is buying through a broker or a local dealer, in this case prefer, a reputed or atleast known dealer to avoid any future headache. However, buying a car directly from the owner is still the best and the most hassle-free way.\n</div><div><br></div>"
             },
             {
               "authorName": "",
