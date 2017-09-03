@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JeeJayCars",
-    "currentPage": "Contact Us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -84,7 +84,7 @@
             "showArrow": true,
             "contentAlign": "right",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/40023509-speedometer-wallpapers-2000x1125.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/rolls-royce-wraith-white-rear-view-104125-1920x1080-1920x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -97,8 +97,8 @@
             "overlayOpacity": 0.5
           },
           "title": "JeeJayCars™",
-          "text": "<b>Real Value For Used Cars</b><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"Tel:9841087179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+          "text": "<b>Real Value @ Used Cars</b><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"Tel:9841087179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
           "_tags": [
             "Theme"
           ],
@@ -106,7 +106,7 @@
           "_anchor": "header1-1",
           "_styles": {
             "H1": {
-              "color": "#ffffff",
+              "color": "#fac51c",
               "text-align": "left",
               "font-size": "36px",
               "font-family": "'Montserrat', sans-serif",
