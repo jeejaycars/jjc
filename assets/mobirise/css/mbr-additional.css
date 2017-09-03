@@ -28,6 +28,9 @@
 #contacts1-3 P {
   color: #2c82c9;
 }
+#contacts1-3 UL {
+  color: #4c6972;
+}
 #social-buttons2-4 .mbr-header__text {
   color: #27aae0;
 }
@@ -79,6 +82,9 @@
 #contacts1-9 P {
   color: #2c82c9;
 }
+#contacts1-9 UL {
+  color: #4c6972;
+}
 #footer1-a B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 16px;
@@ -108,6 +114,9 @@
 }
 #contacts1-f P {
   color: #2c82c9;
+}
+#contacts1-f UL {
+  color: #4c6972;
 }
 #footer1-g B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
