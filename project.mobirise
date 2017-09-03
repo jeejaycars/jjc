@@ -89,27 +89,27 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/2015-rolls-royce-phantom-limelight-2000x1250.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "JEE JAY CARS",
                 "contentAlign": "right",
                 "text": "<b>Used Cars @ Real Value</b>",
-                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a> ",
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a> ",
                 "overlay": true,
                 "overlayOpacity": "0.6"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/audi-hd-wallpaper-1600x900.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "title": "JEE JAY CARS",
                 "contentAlign": "left",
                 "text": "<b>Used Cars @ Real Value</b>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
                 "overlay": true,
                 "overlayOpacity": "0.6"
               },
@@ -122,7 +122,7 @@
                 "title": "JEE JAY CARS",
                 "contentAlign": "left",
                 "text": "<b>Used Cars @ Real Value</b>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
                 "overlay": true,
                 "overlayOpacity": "0.4",
                 "overlayColor": "#28324e"
@@ -136,7 +136,7 @@
                 "title": "JEE JAY CARS",
                 "contentAlign": "left",
                 "text": "<b>Used Cars @ Real Value</b>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
                 "overlay": true,
                 "overlayOpacity": "0.4",
                 "overlayColor": "#28324e"
@@ -150,7 +150,7 @@
                 "title": "JEE JAY CARS",
                 "contentAlign": "left",
                 "text": "<b>Used Cars @ Real Value</b>",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"1\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
                 "overlay": true,
                 "overlayOpacity": "0.4",
                 "overlayColor": "#28324e"
