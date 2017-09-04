@@ -176,7 +176,8 @@
             "B": {
               "font-family": "'Slabo 27px', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "font-size": "30px"
+              "font-size": "30px",
+              "color": "#ffffff"
             }
           }
         },
@@ -190,13 +191,6 @@
             "showBullets": true,
             "bgColor": "#4c6972",
             "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0026-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0026-1280x720-800x450.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0023-1280x720.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0023-1280x720-800x450.jpg",
