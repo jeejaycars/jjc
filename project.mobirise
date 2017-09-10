@@ -6,11 +6,14 @@
       "name": "default",
       "title": "Mobirise",
       "styling": {},
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#222222"
+      ]
     },
     "versionFirst": "4.2.3",
-    "uniqCompNum": 6,
-    "versionPublish": "4.2.3"
+    "uniqCompNum": 34,
+    "versionPublish": "4.2.3",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -23,76 +26,6 @@
         "html_before": ""
       },
       "components": [
-        {
-          "_params": {
-            "fullWidth": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "noGutter": true,
-            "showText": false,
-            "showBullets": true,
-            "bgColor": "#4c6972",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0030-800x599.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0030-800x599-800x599.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0028-800x599.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0028-800x599-800x599.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0029-800x599.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0029-800x599-800x599.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0031-800x599.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0031-800x599-800x599.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-3"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "CARS DETAILS:",
-          "meta": "Model: Volkswagen polo<br>Condition: Good",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-5",
-          "_styles": {
-            "P": {
-              "color": "#27aae0",
-              "font-family": "'Slabo 27px', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
-              "text-align": "left"
-            },
-            "H3": {
-              "color": "#27aae0"
-            }
-          }
-        },
         {
           "_inherit": "menu",
           "_params": {
@@ -123,7 +56,7 @@
               "color": "#2c82c9"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://jeejaycars.github.io/jjc/index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CARS IN STOCK</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://jeejaycars.github.io/jjc/page1.html\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://jeejaycars.github.io/jjc/Contact%20Us.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://jeejaycars.github.io/jjc/finance.html\">FINANCE</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CARS IN STOCKS</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Us.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"finance.html\">FINANCE</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -133,7 +66,7 @@
               "alt": "WebSoft",
               "link": "https://www.wspl.online/",
               "title": "",
-              "linkInNewWindow": true
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -141,9 +74,212 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "brand": "<a class=\"mbr-brand__name text-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JeeJayCars</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-0"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/2015-rolls-royce-phantom-limelight-2000x1250.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "JEE JAY CARS",
+                "contentAlign": "right",
+                "text": "<b>Used Cars @ Real Value</b>",
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a> ",
+                "overlay": true,
+                "overlayOpacity": "0.6"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/audi-hd-wallpaper-1600x900.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "JEE JAY CARS",
+                "contentAlign": "left",
+                "text": "<b>Used Cars @ Real Value</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "overlay": true,
+                "overlayOpacity": "0.6"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/bmw-cars-beautiful-hd-wallpapers-1-640x426.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "JEE JAY CARS",
+                "contentAlign": "left",
+                "text": "<b>Used Cars @ Real Value</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "overlayColor": "#28324e"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/range-rover-cars-hd-wallpapers-1600x1050.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "JEE JAY CARS",
+                "contentAlign": "left",
+                "text": "<b>Used Cars @ Real Value</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "overlayColor": "#28324e"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/5r8eyu-1920x1200.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "JEE JAY CARS",
+                "contentAlign": "left",
+                "text": "<b>Used Cars @ Real Value</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a>",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "overlayColor": "#28324e"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-n",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff",
+              "text-align": "left",
+              "font-size": "36px"
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#2c82c9"
+            },
+            "B": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "30px",
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "8px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "fullWidth": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "noGutter": true,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#4c6972",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0023-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0023-1280x720-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0024-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0024-1280x720-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0025-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0025-1280x720-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0031-800x599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0031-800x599-800x599.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0030-800x599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0030-800x599-800x599.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0032-800x599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0032-800x599-800x599.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0029-800x599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0029-800x599-800x599.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0045-1152x864.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0045-1152x864-800x600.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0035-1152x864.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0035-1152x864-800x600.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0036-1152x864.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0036-1152x864-800x600.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0040-1152x864.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0040-1152x864-800x600.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-7"
         },
         {
           "_params": {
@@ -160,14 +296,14 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-265x265.png",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
               "link": "https://www.wspl.online/",
               "alt": "WebSoft",
               "title": "",
-              "linkInNewWindow": true
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -175,16 +311,45 @@
               "size": 0
             }
           },
-          "text1": "<strong>ADDRESS</strong><br>OLD ON 81 NEW NO 208, \n<br>VELACHERY , GANDHI ROAD BUS STOP , CHENNAI-600042. \n<br>TAMILNADU (State), \n<br>INDIA<br>",
-          "text2": "<strong>CONTACTS</strong><br>Email: Jeejaycars@gmail.com\n<br>Hotline: 9841097179\n<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962597179\n<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962497179\n<br>Telephone: 04422551380<br>",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"https://jeejaycars.github.io/jjc/\">Home</a></li><li>Cars in Stock\n</li><li><a href=\"https://jeejaycars.github.io/jjc/page1.html\">About Us</a>\n</li><li><a href=\"https://jeejaycars.github.io/jjc/Contact%20Us.html\">Contact Us</a>\n</li><li><a href=\"https://jeejaycars.github.io/jjc/finance.html\">Finance</a></li></ul>",
+          "text1": "<strong>ADDRESS</strong><br>OLD ON 81 NEW NO 208,\n<br>VELACHERY , GANDHI ROAD BUS STOP , CHENNAI-600042.\n<br>TAMILNADU (State),\n<br>INDIA<br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: Jeejaycars@gmail.com<br>Hotline: 9841097179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962597179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962497179<br>Telephone: 04422551380",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><p class=\"mbr-contacts__text\"><b><a href=\"index.html\">Home</a></b></p><ul class=\"mbr-contacts__list\"><li><b><a href=\"page1.html\">About </a>Us</b></li><li><b><a href=\"Contact Us.html\">Contact Us</a></b></li><li><b>Finance</b></li></ul>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-1",
+          "_anchor": "contacts1-3",
           "_styles": {
             "P": {
+              "color": "#2c82c9"
+            },
+            "UL": {
+              "color": "#4c6972"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" href=\"https://twitter.com/jeejaycars\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" href=\"https://www.facebook.com/jeejaycars/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" href=\"https://youtu.be/7nmJ24R4oh4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" href=\"https://www.instagram.com/jeejaycars/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-4",
+          "_styles": {
+            ".mbr-header__text": {
               "color": "#27aae0"
             }
           }
@@ -202,12 +367,1013 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Powered By: Web Soft Private Limited™ , Tiruchengode (09842573025) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Visit us: <a href=\"http://www.wspl.online/\">www.wspl.online</a>",
+          "text": "<b>Powered By: Web Soft Private Limited™ , Tiruchengode (09842573025) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Visit us: <a href=\"http://www.wspl.online/\" target=\"_blank\">www.wspl.online</a></b>",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-2"
+          "_anchor": "footer1-5",
+          "_styles": {
+            "B": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "16px"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "About Us",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#2c82c9"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://play.google.com/store/apps/details?id=com.wJeeJayCars\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD APP</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#2c82c9"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CARS IN STOCKS</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Us.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"finance.html\">FINANCE</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-128x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "WebSoft",
+              "link": "https://www.wspl.online/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JeeJayCars</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-8"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#2c82c9",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "36px"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#000000",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
+            },
+            ".mbr-article P": {
+              "color": "#2c82c9"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-752x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": true,
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.2
+          },
+          "title": "Jee Jay Cars",
+          "text": "<p><b>Welcome to Jee Jay Cars.We offer a complete range of quality tested certified second hand used cars from all brands in Chennai. We have our sales &amp; service outlet at Velachery, Chennai. We are a Multibrand Used Car Dealer providing sales &amp; service under one single umbrella. We have a qualified educated staff who are well trained in this Industry.</b></p><p><b>| Why Choose Us |</b></p><p><b><i>Quality process\n</i></b></p><p><b>Our Commitment is towards providing our customers with only the highest quality. We pay tremendous attention to detail to ensure that you go home with the top-of-the-line, used vehicle that you’ve always dreamed of.\n</b></p><p><b>\n</b></p><p><b><i>Some of the Great Services Our Customers\n</i></b></p><p><b>Transparency, trust and peace of mind to every customer. Expertise and professionalism. Wide choice of multi-brand cars. Convenience of hassle-free documentation. The assurance of WarrantyFirst and Certifirst. Best competitive prices in the industry. Finance on used cars. Insurance on used cars. Supply &amp; fitment of a wide range of car accessories.\n</b></p><p><b>\n</b></p><p><b><i>Selling Your Used Car \n</i></b></p><p><b>Buying and selling a used car comes with its own set of uncertainties, questions and misconceptions. Let JeeJayCars put your mind at ease. When you get the JeeJayCars advantage, you will enjoy a high quality and hassle-free buying and selling experience.</b></p><p><b><br></b></p><p><b><br></b></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "_name": "content5",
+          "_anchor": "content5-c"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": true,
+            "count": "6",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "THINGS TO CHECK WHEN BUYING A USED CAR",
+          "items": [
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Where to buy?\n</i></b><div>Web has overshadowed every other conventional way to buy or sell a car, so checking out some good deals online can surely save some of your extra bucks, but the only catch here is that you should have the eye to be able to spot a difference between a good and a bad deal. The other option is buying through a broker or a local dealer, in this case prefer, a reputed or atleast known dealer to avoid any future headache. However, buying a car directly from the owner is still the best and the most hassle-free way.\n</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Take an experienced person along:\r</i></b><div>If you aren't a tech savvy and don't have an idea about cars, so its better to take an experienced person along, be it a family member or a friend. If want to play even safer, take a known mechanic with you, as nobody understands a car better than a professional.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Test Drive:\r</i></b><div>Before you get down to a decision for actually making a purchase take a look at the car and drive it. Try to accelerate and brake hard to check everything is in good shape. The engine should revv with ease, gear shifting should be smooth, clutch shoudn't be over-tight and in-general keep your ears open for any doubtful squeaky or rattling sounds.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Inspection:\n</i></b><div>Agreeing to the fact that you might not be having all the knowledge of a trained mechanic or a professional, but some simple-general checks can give a fair idea about the concerned car's health. The first and the most easiest way is to check for an engine’s health is the oil dipstick. If the oil colour on the dipstick is black then chances are it’s not been serviced or maintained well. While, a healthy car’s oil will be golden brown in colour. Next up, check for creamy sludge beneath the engine oil's cap, if its present, then there might be a problem with the head gasket. After that switch onn the engine and check if the radiator has a leak or there isn't any other of oil leaking from the engine. Also check for patchy paint work and bent or dented panels as they may have been hammered back into shape and re-painted after an accident. If all seems fine till now, removing rubber lining from all door sills to check for dents and sign of re-worked body.\n</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Paperwork to be checked:\r</i></b><div>This is a very crucial part in a car deal. Please ensure that all paperwork of the car should be complete. Insurance, RC (Registration certificate), service history, PUC (Pollution under control certificate), warranty certificates and if required NOC (No Objection Certificate) too, give all of them a close look.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Things to doubt up on:\n</i></b><div>- Irregular Service History\n</div><div>- Body Rusting\n</div><div>- Brand new accessories (hints at something &nbsp; &nbsp;fishy in the deal)\n</div><div>- Jerky Drive\n</div><div>- Strange sounds from engine\n</div><div><br></div>"
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-d",
+          "testimonial": [
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Where to buy?\n</i></b><div>Web has overshadowed every other conventional way to buy or sell a car, so checking out some good deals online can surely save some of your extra bucks, but the only catch here is that you should have the eye to be able to spot a difference between a good and a bad deal. The other option is buying through a broker or a local dealer, in this case prefer, a reputed or atleast known dealer to avoid any future headache. However, buying a car directly from the owner is still the best and the most hassle-free way.\n</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Take an experienced person along:\r</i></b><div>If you aren't a tech savvy and don't have an idea about cars, so its better to take an experienced person along, be it a family member or a friend. If want to play even safer, take a known mechanic with you, as nobody understands a car better than a professional.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Test Drive:\r</i></b><div>Before you get down to a decision for actually making a purchase take a look at the car and drive it. Try to accelerate and brake hard to check everything is in good shape. The engine should revv with ease, gear shifting should be smooth, clutch shoudn't be over-tight and in-general keep your ears open for any doubtful squeaky or rattling sounds.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Inspection:\n</i></b><div>Agreeing to the fact that you might not be having all the knowledge of a trained mechanic or a professional, but some simple-general checks can give a fair idea about the concerned car's health. The first and the most easiest way is to check for an engine’s health is the oil dipstick. If the oil colour on the dipstick is black then chances are it’s not been serviced or maintained well. While, a healthy car’s oil will be golden brown in colour. Next up, check for creamy sludge beneath the engine oil's cap, if its present, then there might be a problem with the head gasket. After that switch onn the engine and check if the radiator has a leak or there isn't any other of oil leaking from the engine. Also check for patchy paint work and bent or dented panels as they may have been hammered back into shape and re-painted after an accident. If all seems fine till now, removing rubber lining from all door sills to check for dents and sign of re-worked body.\n</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Paperwork to be checked:\r</i></b><div>This is a very crucial part in a car deal. Please ensure that all paperwork of the car should be complete. Insurance, RC (Registration certificate), service history, PUC (Pollution under control certificate), warranty certificates and if required NOC (No Objection Certificate) too, give all of them a close look.\r</div><div><br></div>"
+            },
+            {
+              "authorName": "",
+              "authorBio": "",
+              "text": "<b><i>Things to doubt up on:\n</i></b><div>- Irregular Service History\n</div><div>- Body Rusting\n</div><div>- Brand new accessories (hints at something &nbsp; &nbsp;fishy in the deal)\n</div><div>- Jerky Drive\n</div><div>- Strange sounds from engine\n</div><div><br></div>"
+            }
+          ],
+          "_styles": {
+            ".mbr-reviews__text DIV": {
+              "color": "#2c82c9"
+            },
+            ".mbr-reviews__text I": {
+              "color": "#000000"
+            },
+            ".mbr-section__header": {
+              "color": "#2c82c9"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-265x265.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "https://www.wspl.online/",
+              "alt": "WebSoft",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>OLD ON 81 NEW NO 208,\n<br>VELACHERY , GANDHI ROAD BUS STOP , CHENNAI-600042.\n<br>TAMILNADU (State),\n<br>INDIA<br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: Jeejaycars@gmail.com<br>Hotline: 9841097179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962597179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962497179<br>Telephone: 04422551380",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><p class=\"mbr-contacts__text\"><b><a href=\"index.html\">Home</a></b></p><ul class=\"mbr-contacts__list\"><li><b><a href=\"page1.html\">About </a>Us</b></li><li><b><a href=\"Contact Us.html\">Contact Us</a></b></li><li><b>Finance</b></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-9",
+          "_styles": {
+            "P": {
+              "color": "#2c82c9"
+            },
+            "UL": {
+              "color": "#4c6972"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Powered By: Web Soft Private Limited™ , Tiruchengode (09842573025) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Visit us: <a href=\"http://www.wspl.online/\" target=\"_blank\">www.wspl.online</a></b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "B": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "footer1-a"
+        }
+      ]
+    },
+    "Contact Us.html": {
+      "settings": {
+        "meta_descr": "",
+        "title": "Contact Us",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#2c82c9"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://play.google.com/store/apps/details?id=com.wJeeJayCars\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD APP</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#2c82c9"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CARS IN STOCKS</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Us.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"finance.html\">FINANCE</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-128x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "WebSoft",
+              "link": "https://www.wspl.online/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JeeJayCars</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-e"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "CONTACT FORM(Our Team Will Contact You in 24 Hrs)",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "action": "jeejaycars@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-h",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "20px",
+              "color": "#2c82c9"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "SUBSCRIBE TO OUR NEWSLETTER TO GET INFOMATION ABOUT NEW ARRIVALS",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">SUBSCRIBE</a>",
+          "form": {
+            "action": "jeejaycars@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-i",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-size": "20px",
+              "color": "#2c82c9"
+            }
+          }
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "Jee Jay Cars",
+              "placeId": "ChIJWS-Iw2JnUjoRcr350SjSN0k",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-j"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-265x265.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "https://www.wspl.online/",
+              "alt": "WebSoft",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>OLD ON 81 NEW NO 208,\n<br>VELACHERY , GANDHI ROAD BUS STOP , CHENNAI-600042.\n<br>TAMILNADU (State),\n<br>INDIA<br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: Jeejaycars@gmail.com<br>Hotline: 9841097179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962597179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962497179<br>Telephone: 04422551380",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><p class=\"mbr-contacts__text\"><b><a href=\"index.html\">Home</a></b></p><ul class=\"mbr-contacts__list\"><li><b><a href=\"page1.html\">About </a>Us</b></li><li><b><a href=\"Contact Us.html\">Contact Us</a></b></li><li><b>Finance</b></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-f",
+          "_styles": {
+            "P": {
+              "color": "#2c82c9"
+            },
+            "UL": {
+              "color": "#4c6972"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Powered By: Web Soft Private Limited™ , Tiruchengode (09842573025) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Visit us: <a href=\"http://www.wspl.online/\" target=\"_blank\">www.wspl.online</a></b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "B": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "footer1-g"
+        }
+      ]
+    },
+    "finance.html": {
+      "settings": {
+        "meta_descr": "",
+        "title": "Finance",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#2c82c9"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://play.google.com/store/apps/details?id=com.wJeeJayCars\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD APP</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#2c82c9"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CARS IN STOCKS</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Us.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"finance.html\">FINANCE</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-128x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "WebSoft",
+              "link": "https://www.wspl.online/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JeeJayCars</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-o"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "|Financing your Used Car|",
+          "meta": "<b>If buying a used car can be complex, getting finance to fund the purchase can be even more complicated.\n<br>\n<br>Are the interest rates being offered, the best you can get? Can you do with a slightly lower down payment? Are there any hidden charges? What is a flat rate? What is diminishing rate? When you come to Sakthi Cars you will have an answer to all these questions and a lot more...</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-r",
+          "_styles": {
+            "P": {
+              "color": "#27aae0"
+            }
+          }
+        },
+        {
+          "_inherit": "features1",
+          "_params": {
+            "showHeader": false,
+            "showSubheader": false,
+            "showImages": false,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "<i>Because at Jee Jay Cars you have....</i>",
+          "caption1": "<br>1.Wide range of financing options. \n<br>2.Wide range of Financing Institutions and &nbsp; &nbsp; &nbsp;Banks.\n<br>3.Preferred interest rates for Jee Jay Cars customers.\n<br>4.Loan tenures up to 7 years. (T&amp;C)\n<br>5.EMI as low.&nbsp;<br>6.FAST processing of loan - SUPER FAST delivery of Car\n<br>7.Funding available up to 95% of car value* (T&amp;C).",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "<i>Key benefits of Finance through Jee Jay Cars \n</i><div><br></div>",
+          "caption2": "1.All Loan documentation under one roof.\n<br>2.Door step documentation assistance &nbsp; &nbsp;available on request.\n<br>3.Top-up your existing loan with assistance of &nbsp;Sakthi Cars.\n<br>4.Post disbursal assistance available &nbsp;(Transfer of Ownership, Hypothecation, &nbsp;Insurance of car etc.)\n<br>5.Assisting in co-ordination of insurance &nbsp;claim, if any.\n<br>6.Assistance in loan closure if required during &nbsp;tenure of loan.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "<i>Multipoint Safety Check</i>",
+          "caption3": "<br>Call us at 98410 97179&nbsp;and our executive will meet you at your convenience.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "UNLIMITED WEBSITES",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_name": "content4",
+          "_anchor": "content4-s"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-265x265.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "https://www.wspl.online/",
+              "alt": "WebSoft",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>OLD ON 81 NEW NO 208,\n<br>VELACHERY , GANDHI ROAD BUS STOP , CHENNAI-600042.\n<br>TAMILNADU (State),\n<br>INDIA<br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: Jeejaycars@gmail.com<br>Hotline: 9841097179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962597179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962497179<br>Telephone: 04422551380",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><p class=\"mbr-contacts__text\"><b><a href=\"index.html\">Home</a></b></p><ul class=\"mbr-contacts__list\"><li><b><a href=\"page1.html\">About </a>Us</b></li><li><b><a href=\"Contact Us.html\">Contact Us</a></b></li><li><b>Finance</b></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#2c82c9"
+            },
+            "UL": {
+              "color": "#4c6972"
+            }
+          },
+          "_anchor": "contacts1-p"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Powered By: Web Soft Private Limited™ , Tiruchengode (09842573025) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Visit us: <a href=\"http://www.wspl.online/\" target=\"_blank\">www.wspl.online</a></b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "B": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "footer1-q"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "Cars in Stock",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#2c82c9"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://play.google.com/store/apps/details?id=com.wJeeJayCars\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD APP</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#2c82c9"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CARS IN STOCKS</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">ABOUT US</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Us.html\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"finance.html\">FINANCE</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-128x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "WebSoft",
+              "link": "https://www.wspl.online/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JeeJayCars</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-t"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "OOPS!THIS PAGE IS UNDER DEVELOPMENT!<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;STAY TUNED.....<br>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-x",
+          "_styles": {
+            "H3": {
+              "color": "#27aae0"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jee-jay-cars-2-265x265.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "https://www.wspl.online/",
+              "alt": "WebSoft",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>OLD ON 81 NEW NO 208,\n<br>VELACHERY , GANDHI ROAD BUS STOP , CHENNAI-600042.\n<br>TAMILNADU (State),\n<br>INDIA<br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: Jeejaycars@gmail.com<br>Hotline: 9841097179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962597179<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;9962497179<br>Telephone: 04422551380",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><p class=\"mbr-contacts__text\"><b><a href=\"index.html\">Home</a></b></p><ul class=\"mbr-contacts__list\"><li><b><a href=\"page1.html\">About </a>Us</b></li><li><b><a href=\"Contact Us.html\">Contact Us</a></b></li><li><b>Finance</b></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#2c82c9"
+            },
+            "UL": {
+              "color": "#4c6972"
+            }
+          },
+          "_anchor": "contacts1-u"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Powered By: Web Soft Private Limited™ , Tiruchengode (09842573025) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Visit us: <a href=\"http://www.wspl.online/\" target=\"_blank\">www.wspl.online</a></b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "B": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "footer1-v"
         }
       ]
     }
