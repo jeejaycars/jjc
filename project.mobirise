@@ -63,7 +63,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "https://wspl.online",
               "title": "",
               "linkInNewWindow": false
             },
@@ -81,7 +81,7 @@
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
             "autoplay": true,
-            "fullScreen": true,
+            "fullScreen": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "showBullets": false,
@@ -89,7 +89,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/2015-rolls-royce-phantom-limelight-2000x1250.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -102,7 +102,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/audi-hd-wallpaper-1600x900.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -178,6 +178,9 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
               "font-size": "30px",
               "color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "8px"
             }
           }
         },
@@ -424,7 +427,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "https://wspl.online",
               "title": "",
               "linkInNewWindow": false
             },
@@ -713,7 +716,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "https://wspl.online",
               "title": "",
               "linkInNewWindow": false
             },
@@ -960,7 +963,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "https://wspl.online",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1266,7 +1269,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "https://wspl.online",
               "title": "",
               "linkInNewWindow": false
             },
