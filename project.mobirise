@@ -103,7 +103,7 @@
                 "text": "<b>Used Cars @ Real Value</b>",
                 "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mysocialapp.net/jjconline/?a=login&amp;s=1272312\" data-toolbar=\"-mbrBtnMove\">CHAT ONLINE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"Tel:9841097179\" data-toolbar=\"-mbrBtnMove\">CALL</a> ",
                 "overlay": true,
-                "overlayOpacity": "0.6"
+                "overlayOpacity": "0.4"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/audi-hd-wallpaper-1600x900.jpg",
@@ -185,105 +185,11 @@
               "color": "#ffffff"
             },
             ".btn": {
-              "font-size": "8px"
+              "font-size": "8px",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
             }
           }
-        },
-        {
-          "_params": {
-            "fullWidth": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "noGutter": true,
-            "showText": false,
-            "showBullets": true,
-            "bgColor": "#4c6972",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0023-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0023-1280x720-800x450.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0024-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0024-1280x720-800x450.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0025-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0025-1280x720-800x450.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0031-800x599.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0031-800x599-800x599.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0030-800x599.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0030-800x599-800x599.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0032-800x599.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0032-800x599-800x599.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0029-800x599.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0029-800x599-800x599.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0045-1152x864.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0045-1152x864-800x600.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0035-1152x864.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0035-1152x864-800x600.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0036-1152x864.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0036-1152x864-800x600.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-20170902-wa0040-1152x864.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170902-wa0040-1152x864-800x600.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-7"
         },
         {
           "_params": {
@@ -325,10 +231,16 @@
           "_anchor": "contacts1-3",
           "_styles": {
             "P": {
-              "color": "#2c82c9"
+              "color": "#2c82c9",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             },
             "UL": {
-              "color": "#4c6972"
+              "color": "#4c6972",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             }
           }
         },
@@ -640,10 +552,16 @@
           "_anchor": "contacts1-9",
           "_styles": {
             "P": {
-              "color": "#2c82c9"
+              "color": "#2c82c9",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             },
             "UL": {
-              "color": "#4c6972"
+              "color": "#4c6972",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             }
           }
         },
@@ -887,10 +805,16 @@
           "_anchor": "contacts1-f",
           "_styles": {
             "P": {
-              "color": "#2c82c9"
+              "color": "#2c82c9",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             },
             "UL": {
-              "color": "#4c6972"
+              "color": "#4c6972",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             }
           }
         },
@@ -1192,10 +1116,16 @@
           "_name": "contacts1",
           "_styles": {
             "P": {
-              "color": "#2c82c9"
+              "color": "#2c82c9",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             },
             "UL": {
-              "color": "#4c6972"
+              "color": "#4c6972",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             }
           },
           "_anchor": "contacts1-p"
@@ -1344,10 +1274,16 @@
           "_name": "contacts1",
           "_styles": {
             "P": {
-              "color": "#2c82c9"
+              "color": "#2c82c9",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             },
             "UL": {
-              "color": "#4c6972"
+              "color": "#4c6972",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "16px"
             }
           },
           "_anchor": "contacts1-u"

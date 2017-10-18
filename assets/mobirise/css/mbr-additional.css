@@ -2,6 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
 
 
+
+
+
 #ext_menu-0 .mbr-brand__name {
   font-size: 16px;
 }
@@ -30,12 +33,17 @@
 }
 #slider-n .btn {
   font-size: 8px;
+  font-family: 'Slabo 27px', serif;
 }
 #contacts1-3 P {
   color: #2c82c9;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #contacts1-3 UL {
   color: #4c6972;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #social-buttons2-4 .mbr-header__text {
   color: #27aae0;
@@ -44,6 +52,8 @@
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 16px;
 }
+
+
 
 
 
@@ -87,14 +97,20 @@
 }
 #contacts1-9 P {
   color: #2c82c9;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #contacts1-9 UL {
   color: #4c6972;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #footer1-a B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 16px;
 }
+
+
 
 
 #ext_menu-e .mbr-brand__name {
@@ -120,14 +136,20 @@
 }
 #contacts1-f P {
   color: #2c82c9;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #contacts1-f UL {
   color: #4c6972;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #footer1-g B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 16px;
 }
+
+
 
 #ext_menu-o .mbr-brand__name {
   font-size: 16px;
@@ -146,14 +168,20 @@
 }
 #contacts1-p P {
   color: #2c82c9;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #contacts1-p UL {
   color: #4c6972;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #footer1-q B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 16px;
 }
+
+
 
 #ext_menu-t .mbr-brand__name {
   font-size: 16px;
@@ -172,9 +200,13 @@
 }
 #contacts1-u P {
   color: #2c82c9;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #contacts1-u UL {
   color: #4c6972;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
 }
 #footer1-v B {
   font-family: 'Yanone Kaffeesatz', sans-serif;
