@@ -13,7 +13,11 @@
     "versionFirst": "4.2.3",
     "uniqCompNum": 37,
     "versionPublish": "4.3.4",
-    "path": "@PROJECT_PATH@"
+    "path": "@PROJECT_PATH@",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=59e702980b49600011e10fa3&product=sticky-share-buttons' async='async'></script>",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
